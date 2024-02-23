@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="title">Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+      </header>
+      <form id="survey-form">
+        <fieldset>
+        <label id="name-label">
+          Name
+          <input id="name" type="text" placeholder="Enter your name" require>
+        </label>
+        <label id="email-label">
+          email
+          <input id="email" type="email"  placeholder="Enter your Email" require="true">
+        </label>
+        <label id="number-label">
+          Age(optional)
+          <input id="number" type="number" placeholder="Age" min="1" max="9">
+        </label>
+        <label>
+          Which option best describes your current role?
+          <select id="dropdown">
+            <option>Select current role</option>
+            <option>Student</option>
+            <option>Full Time Job</option>
+            <option>Full Time Learner</option>
+            <option>Prefer not to say</option>
+            <option>Other</option>
+          </select>
+        </label>
+        </fieldset>
+        
+        <input id="submit" type="submit" value="Submit">
+        
+        
+      </form>
+    
+    
+    
+</body>
+</html>

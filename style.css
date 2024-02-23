@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body {
+    font-family: "Open Sans";
+    background-size: 100%;
+    background-color: lightblue;
+}
+
+#login {
+    font-family: "Open Sans";
+    width: 15%;
+    background: #fafafa;
+    box-shadow: 0 0 20px 6px gray;
+    padding: 10px;
+    margin-top: 10%;
+    /* border-top: solid #800000 10px; */
+    /* border-top-left-radius: 45px; */
+    /* border-top-right-radius: 45px; */
+}
+
+#Registration {
+    font-family: "Open Sans";
+    width: 30%;
+    background: #fafafa;
+    box-shadow: 0 0 20px 6px gray;
+    padding: 10px;
+    margin-top: 10%;
+  
+}
+
+#Survey {
+    font-family: "Open Sans";
+    width: 30%;
+    background: #fafafa;
+    box-shadow: 0 0 20px 6px gray;
+    padding: 10px;
+    margin-top: 10%;
+}
+
+
+
+.text-center {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 5px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  
+
+
